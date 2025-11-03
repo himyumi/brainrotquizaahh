@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/third_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvQuestion3"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text=" Iam chronically online, i goon 24/7 to femboys, i play league of legends and marvel rivals. and I always last second. What am I?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kai cenat"/>
+
+        <RadioButton
+            android:id="@+id/option2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loneliness"/>
+
+        <RadioButton
+            android:id="@+id/option3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GOONER" />
+
+        <RadioButton
+            android:id="@+id/option4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARSENAL FAN"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skibidi forward"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/tvResult3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="GAY GOONER"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gaygooner" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/second_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvQuestion2"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Even sigma grindsets fall to me.
+I cook kings and NPCs the same.
+No respawns, only credits roll.
+Who am I?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="black"/>
+
+        <RadioButton
+            android:id="@+id/option2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="death"/>
+
+        <RadioButton
+            android:id="@+id/option3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="live" />
+
+        <RadioButton
+            android:id="@+id/option4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rock"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skibidi forward"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/tvResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="bombardino crocodilo"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bombardinocroccodilo" />
+
+</LinearLayout>
